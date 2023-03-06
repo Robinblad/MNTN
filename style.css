@@ -1,0 +1,466 @@
+@font-face {
+  font-family: Chronicle Display;
+  src: url(/fonts/Chronicle\ Display\ Semibold.otf);
+}
+@font-face {
+  font-family: Gilroy replica;
+  src: url(/fonts/RenogareSoft-Regular.ttf);
+}
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.button:hover {
+  color: rgb(251, 215, 132);
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0B1D26;
+  color: white;
+}
+
+#imgBackground {
+  position: absolute;
+  background-image: url(/img/background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: scroll;
+  height: 1400px;
+  width: 100%;
+  z-index: 1;
+}
+
+.imgFrame {
+  height: 1400px;
+}
+
+.diagonalGradient {
+  z-index: 2;
+  width: 100%;
+  position: absolute;
+  height: 1400px;
+  background-image: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 45%, #0B1D26 110%);
+}
+
+.horizonGradient {
+  z-index: 2;
+  width: 100%;
+  position: absolute;
+  top: 1000px;
+  height: 400px;
+  background-image: linear-gradient(180deg, rgba(11, 29, 38, 0) 45%, #0B1D26 75%);
+}
+
+.headerBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+  top: 38px;
+  position: relative;
+  margin: 0 60px;
+}
+
+.headerBlock1 {
+  display: flex;
+  font-family: Chronicle Display;
+  font-size: 24px;
+}
+
+.headerBlock2 {
+  display: flex;
+  justify-content: center;
+  font-family: Gilroy replica;
+  font-size: 11px;
+}
+
+.headerNav {
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+
+.headerBlock3 {
+  display: flex;
+  align-items: center;
+}
+
+.accountName {
+  margin-left: 4px;
+  font-family: Gilroy replica;
+  font-size: 11px;
+}
+
+.headerMain {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 4;
+  top: 210px;
+  -webkit-animation: appear 1500ms ease-in forwards;
+          animation: appear 1500ms ease-in forwards;
+}
+
+.headerContainer {
+  display: flex;
+  flex-basis: 712px;
+  flex-direction: column;
+}
+
+.textHeader {
+  font-size: 65px;
+  font-family: Chronicle Display;
+  font-weight: 600;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+.sectionFrame {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 20vh;
+  flex-wrap: wrap;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.sectionBlock {
+  bottom: 38vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  z-index: 4;
+  gap: 4vw;
+}
+
+.sectionBlockRight {
+  right: 11vw;
+  flex-direction: row-reverse;
+  gap: 12vw;
+}
+
+.sectionNumber {
+  z-index: 3;
+  opacity: 0.12;
+  position: relative;
+  bottom: 18vh;
+  font-family: Gilroy replica;
+  font-size: 180px;
+  transform: scale(1, 1.2);
+  letter-spacing: -10px;
+}
+
+.number01 {
+  left: 8.5vw;
+}
+
+.number02 {
+  position: absolute;
+  bottom: 43vh;
+  left: 57vw;
+}
+
+.number03 {
+  left: 10.5vw;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-basis: 33%;
+  flex-direction: column;
+}
+
+.sectionSlogan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(251, 215, 132);
+  font-family: Gilroy replica;
+  font-size: 13px;
+  margin-bottom: 21px;
+}
+
+.lineSlogan {
+  width: 62px;
+  height: 2px;
+  background-color: rgb(251, 215, 132);
+}
+
+.textSlogan {
+  word-spacing: 3px;
+  letter-spacing: 4px;
+  margin-left: 26px;
+  transform: scale(1, 1.11);
+}
+
+.sectionPicture {
+  width: 480px;
+  padding: 0 60px 0 50px;
+}
+
+.sectionHeader {
+  font-size: 50px;
+  font-family: Chronicle Display;
+  font-weight: 600;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+.sectionParagraph {
+  position: relative;
+  top: 30px;
+  font-family: Gilroy replica;
+  font-size: 12px;
+}
+
+.caption {
+  display: flex;
+  gap: 15px;
+  position: relative;
+  top: 50px;
+  font-family: Gilroy replica;
+  font-size: 12px;
+  color: rgb(251, 215, 132);
+}
+
+.footerBody {
+  position: relative;
+  z-index: 4;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  margin: 0 11vw 0 11vw;
+  font-family: Gilroy replica;
+  font-size: 11px;
+  bottom: 15vh;
+}
+.footerBody .footerLeftBlock {
+  display: grid;
+  grid-template-rows: 55px 90px 85px;
+  width: 17vw;
+}
+.footerBody .footerLeftBlock .sloganFooter {
+  display: grid;
+}
+.footerBody .footerLeftBlock .logoFooter {
+  font-family: Chronicle Display;
+  font-size: 24px;
+}
+.footerBody .footerLeftBlock .copyrigt {
+  margin-top: 5vh;
+  opacity: 0.5;
+}
+.footerBody .footerRightBlock {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10vw;
+}
+.footerBody .footerRightBlock .navMoreOnTheBlog {
+  display: grid;
+  grid-template-rows: 40px 35px 35px 35px 35px 90px;
+}
+.footerBody .footerRightBlock .navMoreOnTheBlog .navHeader {
+  color: rgb(251, 215, 132);
+  font-size: 14px;
+}
+.footerBody .footerRightBlock .navMoreOnMNTN {
+  display: grid;
+  grid-template-rows: 40px 35px 35px 35px;
+}
+.footerBody .footerRightBlock .navMoreOnMNTN .navHeader {
+  color: rgb(251, 215, 132);
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1410px) {
+  .sectionContainer {
+    flex-basis: 25%;
+  }
+  .footerRightBlock {
+    gap: 5vw;
+  }
+  .number01 {
+    top: -22vh;
+  }
+  .number02 {
+    top: 2vh;
+    left: 63vw;
+  }
+  .number03 {
+    top: -25vh;
+  }
+}
+@media screen and (max-width: 1390px) {
+  .footerBody {
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    margin: 0 3vw 0 3vw;
+  }
+}
+@media screen and (max-width: 1330px) {
+  .sectionContainer {
+    flex-basis: 25%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .horizonGradient {
+    top: 600px;
+    height: 800px;
+    background-image: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 45%);
+  }
+  .sectionContainer {
+    flex-basis: 33%;
+    width: 470px;
+  }
+  .sectionBlock {
+    gap: 4vw;
+    flex-direction: column;
+    align-content: center;
+  }
+  .sectionBlockRight {
+    right: 0vw;
+    gap: 0vw;
+  }
+  .number01 {
+    top: -7vh;
+    left: 19vw;
+  }
+  .number02 {
+    top: -10vh;
+    left: 19vw;
+  }
+  .number03 {
+    top: -7vh;
+    left: 19vw;
+  }
+  .sectionNumber {
+    position: absolute;
+  }
+  .sectionPicture {
+    margin-top: 15vh;
+  }
+  .footerRightBlock {
+    gap: 5vw;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .sectionContainer {
+    flex-basis: 25%;
+  }
+  .footerRightBlock {
+    gap: 3vw;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .horizonGradient {
+    top: 700px;
+    height: 800px;
+    background-image: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 45%);
+  }
+  .headerContainer {
+    flex-basis: 660px;
+  }
+  .textHeader {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .horizonGradient {
+    top: 600px;
+    height: 800px;
+    background-image: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 45%);
+  }
+}
+@media screen and (max-width: 920px) {
+  .horizonGradient {
+    top: 500px;
+    height: 900px;
+    background-image: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 45%);
+  }
+  .headerContainer {
+    flex-basis: 610px;
+  }
+  .textHeader {
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .horizonGradient {
+    top: 400px;
+    height: 1000px;
+    background-image: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 45%);
+  }
+  .headerContainer {
+    flex-basis: 560px;
+  }
+  .textHeader {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .horizonGradient {
+    top: 300px;
+    height: 1000px;
+    background-image: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 45%);
+  }
+}
+@media screen and (max-width: 700px) {
+  .horizonGradient {
+    top: 200px;
+    height: 1000px;
+    background-image: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 45%);
+  }
+  .headerContainer {
+    flex-basis: 500px;
+  }
+  .textHeader {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .sectionPicture {
+    width: 400px;
+    padding: 0 0 0 0;
+  }
+}
+@media screen and (max-width: 565px) {
+  .horizonGradient {
+    top: 200px;
+    height: 1000px;
+    background-image: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 45%);
+  }
+  .headerNav {
+    -moz-column-gap: 15px;
+         column-gap: 15px;
+  }
+  .headerContainer {
+    flex-basis: 400px;
+  }
+  .textHeader {
+    font-size: 35px;
+  }
+  .footerRightBlock {
+    gap: 0vw;
+  }
+  .footerBody {
+    margin: 0 0 0 0;
+  }
+}/*# sourceMappingURL=style.css.map */
