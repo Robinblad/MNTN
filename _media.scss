@@ -1,173 +1,578 @@
 @media screen and (max-width: 1410px) {
-    .sectionContainer {
-        flex-basis: 25%;
-    }
-    .footerRightBlock {
-        gap: 5vw;
-    }
-    .number01 {
-        top: -22vh;
-    }
-    .number02 {
-        top: 2vh;
-        left: 63vw;
-    }
-    .number03 {
-        top: -25vh;
-    }
+	.sectionContainer {
+		flex-basis: 25%;
+	}
+	.footerRightBlock {
+		gap: 5vw;
+	}
+	.number01 {
+		top: -22vh;
+	}
+	.number02 {
+		top: 2vh;
+		left: 63vw;
+	}
+	.number03 {
+		top: -25vh;
+	}
 }
 @media screen and (max-width: 1390px) {
-    .footerBody {
-        grid-template-columns: 1fr 2fr;
-        justify-items: center;
-        margin: 0 3vw 0 3vw;
-    }
-} 
+	.footerBody {
+		grid-template-columns: 1fr 2fr;
+		justify-items: center;
+		margin: 0 3vw 0 3vw;
+	}
+}
 @media screen and (max-width: 1330px) {
-    .sectionContainer {
-        flex-basis: 25%;
-    }
-} 
+	.sectionContainer {
+		flex-basis: 25%;
+	}
+}
 @media screen and (max-width: 1250px) {
-    .horizonGradient {
-        top: 600px;
-        height: 800px;
-        @include mediaGradientMixin;
-    }
-    .sectionContainer {
-        flex-basis: 33%;
-        width: 470px;
-    }
-    .sectionBlock {
-        gap: 4vw;
-        flex-direction: column;
-        align-content: center;
-    }
-    .sectionBlockRight {
-        right: 0vw;
-        gap: 0vw;
-    }
-    .number01 {
-        top: -7vh;
-        left: 19vw;
-    }
-    .number02 {
-        top: -10vh;
-        left: 19vw;
-    }
-    .number03 {
-        top: -7vh;
-        left: 19vw;
-    }
-    .sectionNumber {
-        position: absolute;
-    }
-    .sectionPicture {
-        margin-top: 15vh;
-    }
-    .footerRightBlock {
-        gap: 5vw;
-    }
+	.horizonGradient {
+		top: 600px;
+		height: 800px;
+		@include mediaGradientMixin;
+	}
+	.sectionContainer {
+		flex-basis: 33%;
+		width: 470px;
+	}
+	.sectionBlock {
+		gap: 4vw;
+		flex-direction: column;
+		align-content: center;
+	}
+	.sectionBlockRight {
+		right: 0vw;
+		gap: 0vw;
+	}
+	.number01 {
+		top: -7vh;
+		left: 19vw;
+	}
+	.number02 {
+		top: -10vh;
+		left: 19vw;
+	}
+	.number03 {
+		top: -7vh;
+		left: 19vw;
+	}
+	.sectionNumber {
+		position: absolute;
+	}
+	.sectionPicture {
+		margin-top: 15vh;
+	}
+	.footerRightBlock {
+		gap: 5vw;
+	}
 }
 @media screen and (max-width: 1120px) {
-    .sectionContainer {
-        flex-basis: 25%;
-    }
-    .footerRightBlock {
-        gap: 3vw;
-    }
+	.sectionContainer {
+		flex-basis: 25%;
+	}
+	.footerRightBlock {
+		gap: 3vw;
+	}
 }
 @media screen and (max-width: 1060px) {
-    .horizonGradient {
-        top: 700px;
-        height: 800px;
-        @include mediaGradientMixin;
-    }
-    .headerContainer {
-        flex-basis: 660px;
-    }
-    .textHeader {
-        font-size: 60px;
-    }
+	.horizonGradient {
+		top: 700px;
+		height: 800px;
+		@include mediaGradientMixin;
+	}
+	.headerContainer {
+		flex-basis: 660px;
+	}
+	.textHeader {
+		font-size: 60px;
+	}
 }
 @media screen and (max-width: 970px) {
-    .horizonGradient {
-        top: 600px;
-        height: 800px;
-        @include mediaGradientMixin;
-    }
+	.horizonGradient {
+		top: 600px;
+		height: 800px;
+		@include mediaGradientMixin;
+	}
 }
 @media screen and (max-width: 920px) {
-    .horizonGradient {
-        top: 500px;
-        height: 900px;
-        @include mediaGradientMixin;
-    }
-    .headerContainer {
-        flex-basis: 610px;
-    }
-    .textHeader {
-        font-size: 55px;
-    }
+	.horizonGradient {
+		top: 500px;
+		height: 900px;
+		@include mediaGradientMixin;
+	}
+	.headerContainer {
+		flex-basis: 610px;
+	}
+	.textHeader {
+		font-size: 55px;
+	}
 }
 @media screen and (max-width: 810px) {
-    .horizonGradient {
-        top: 400px;
-        height: 1000px;
-        @include mediaGradientMixin;
-    }
-    .headerContainer {
-        flex-basis: 560px;
-    }
-    .textHeader {
-        font-size: 50px;
-    }
+	.horizonGradient {
+		top: 400px;
+		height: 1000px;
+		@include mediaGradientMixin;
+	}
+	.headerContainer {
+		flex-basis: 560px;
+	}
+	.textHeader {
+		font-size: 50px;
+	}
 }
 @media screen and (max-width: 760px) {
-    .horizonGradient {
-        top: 300px;
-        height: 1000px;
-        @include mediaGradientMixin;
-    }
+	.horizonGradient {
+		top: 300px;
+		height: 1000px;
+		@include mediaGradientMixin;
+	}
 }
 @media screen and (max-width: 700px) {
-    .horizonGradient {
-        top: 200px;
-        height: 1000px;
-        @include mediaGradientMixin;
-    }
-    .headerContainer {
-        flex-basis: 500px;
-    }
-    .textHeader {
-        font-size: 45px;
-    }
+	.horizonGradient {
+		top: 200px;
+		height: 1000px;
+		@include mediaGradientMixin;
+	}
+	.headerContainer {
+		flex-basis: 500px;
+	}
+	.textHeader {
+		font-size: 45px;
+	}
 }
 @media screen and (max-width: 610px) {
-    .sectionPicture {
-        width: 400px;
-        padding: 0 0 0 0;
-    }
+	.sectionPicture {
+		width: 400px;
+		padding: 0 0 0 0;
+	}
 }
 @media screen and (max-width: 565px) {
-    .horizonGradient {
-        top: 200px;
-        height: 1000px;
-        @include mediaGradientMixin;
-    }
-    .headerNav {
-        column-gap: 15px;
-    }
-    .headerContainer {
-        flex-basis: 400px;
-    }
-    .textHeader {
-        font-size: 35px;
-    }
-    .footerRightBlock {
-        gap: 0vw;
-    }
-    .footerBody {
-        margin: 0 0 0 0;
-    }
+	.horizonGradient {
+		top: 200px;
+		height: 1000px;
+		@include mediaGradientMixin;
+	}
+	.headerNav {
+		column-gap: 15px;
+	}
+	.headerContainer {
+		flex-basis: 400px;
+	}
+	.textHeader {
+		font-size: 35px;
+	}
+	.footerRightBlock {
+		gap: 0vw;
+	}
+	.footerBody {
+		margin: 0 0 0 0;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.horizonGradient {
+		top: 100px;
+		height: 900px;
+		@include mediaGradientMixin;
+	}
+
+	.sectionBlock {
+		bottom: 70vh;
+	}
+
+	.textHeader {
+		font-size: 30px;
+	}
+
+	.sectionHeader {
+		font-size: 20px;
+		padding-left: 60px;
+	}
+
+	.sectionPicture {
+		width: 410px;
+		padding-left: 50px;
+	}
+
+	.sectionParagraph {
+		font-size: 12px;
+		width: 390px;
+		padding-left: 60px;
+		line-height: 2;
+	}
+	.sectionSlogan {
+		margin-left: 60px;
+		font-size: 10px;
+	}
+
+	.caption {
+		margin-left: 60px;
+	}
+
+	.headerBlock {
+		width: 370px;
+		margin-left: 30px;
+	}
+	.sectionFrame {
+		width: 380px;
+	}
+	.sectionBlock {
+		width: 380px;
+	}
+	.footerBody {
+		grid-template-columns: 1fr 2fr;
+		bottom: 10vh;
+	}
+
+	.footerBody .footerRightBlock .navMoreOnTheBlog .navHeader {
+		font-size: 11px;
+		padding-top: 5px;
+	}
+
+	.footerBody .footerRightBlock .navMoreOnMNTN .navHeader {
+		font-size: 11px;
+		padding-top: 5px;
+	}
+
+	.navMoreOnTheBlog {
+		padding-left: 20px;
+	}
+
+	.footerBody .footerRightBlock {
+		gap: 2vw;
+	}
+
+	.sectionSloganHeader {
+		margin-left: 4px;
+	}
+
+	.copyrigt {
+		position: absolute;
+		bottom: 22px;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.textHeader {
+		font-size: 25px;
+		padding-left: 20px;
+	}
+
+	.sectionHeader {
+		padding-left: 80px;
+	}
+
+	.sectionPicture {
+		width: 405px;
+		padding-left: 72px;
+	}
+
+	.sectionParagraph {
+		width: 380px;
+		padding-left: 80px;
+	}
+	.sectionSlogan {
+		padding-left: 20px;
+		font-size: 10px;
+	}
+
+	.caption {
+		padding-left: 20px;
+	}
+
+	.headerBlock {
+		margin-left: 20px;
+	}
+	.sectionFrame {
+		width: 340px;
+	}
+	.sectionBlock {
+		width: 340px;
+	}
+	.footerBody {
+		grid-template-columns: 1fr 2fr;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.horizonGradient {
+		height: 550px;
+	}
+	.textHeader {
+		font-size: 23px;
+		padding-left: 20px;
+	}
+
+	.headerBlock {
+		width: 350px;
+		margin-left: 20px;
+	}
+
+	.headerBlock1 {
+		font-size: 20px;
+	}
+
+	.sectionHeader {
+		padding-left: 100px;
+	}
+
+	.sectionPicture {
+		width: 390px;
+		padding-left: 100px;
+	}
+
+	.sectionParagraph {
+		width: 360px;
+		padding-left: 100px;
+	}
+	.sectionSlogan {
+		padding-left: 40px;
+		font-size: 10px;
+	}
+
+	.caption {
+		padding-left: 40px;
+	}
+	.sectionFrame {
+		width: 290px;
+	}
+	.sectionBlock {
+		width: 290px;
+	}
+	.footerBody {
+		grid-template-columns: 1fr 2fr;
+	}
+	.sectionSloganHeader {
+		margin-left: -18px;
+	}
+}
+
+@media screen and (max-width: 384px) {
+	.sectionHeader {
+		padding-left: 120px;
+	}
+
+	.sectionPicture {
+		width: 380px;
+		padding-left: 124px;
+	}
+
+	.sectionParagraph {
+		width: 360px;
+		padding-left: 120px;
+	}
+	.sectionSlogan {
+		padding-left: 60px;
+		font-size: 10px;
+	}
+
+	.caption {
+		padding-left: 60px;
+	}
+	.sectionFrame {
+		width: 260px;
+	}
+	.sectionBlock {
+		width: 260px;
+	}
+}
+
+@media screen and (max-width: 376px) {
+	.textHeader {
+		font-size: 23px;
+		padding-left: 20px;
+	}
+
+	.headerBlock {
+		width: 350px;
+		margin-left: 10px;
+	}
+
+	.headerBlock1 {
+		font-size: 18px;
+	}
+
+	.sectionHeader {
+		padding-left: 110px;
+	}
+
+	.sectionPicture {
+		width: 375px;
+		padding-left: 95px;
+	}
+
+	.sectionParagraph {
+		width: 350px;
+		padding-left: 110px;
+	}
+	.sectionSlogan {
+		padding-left: 50px;
+		font-size: 10px;
+	}
+
+	.caption {
+		padding-left: 50px;
+	}
+	.sectionFrame {
+		width: 280px;
+	}
+	.sectionBlock {
+		width: 280px;
+	}
+	.footerBody {
+		grid-template-columns: 1fr 3fr;
+	}
+
+	.sectionSloganHeader {
+		margin-left: -18px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.horizonGradient {
+		height: 500px;
+	}
+
+	.textHeader {
+		font-size: 23px;
+		padding-left: 20px;
+	}
+
+	.headerBlock {
+		width: 340px;
+		margin-left: 10px;
+	}
+
+	.headerBlock1 {
+		font-size: 18px;
+	}
+
+	.sectionHeader {
+		padding-left: 130px;
+	}
+
+	.sectionPicture {
+		width: 360px;
+		padding-left: 110px;
+	}
+
+	.sectionParagraph {
+		width: 330px;
+		padding-left: 130px;
+		font-size: 11px;
+	}
+	.sectionSlogan {
+		padding-left: 70px;
+		font-size: 9px;
+	}
+
+	.caption {
+		padding-left: 70px;
+	}
+	.sectionFrame {
+		width: 250px;
+	}
+	.sectionBlock {
+		width: 250px;
+	}
+
+	.sectionSloganHeader {
+		margin-left: -45px;
+	}
+
+	.footerBody .footerRightBlock .navMoreOnTheBlog .navHeader {
+		padding-top: 7px;
+	}
+
+	.footerBody .footerRightBlock .navMoreOnMNTN .navHeader {
+		padding-top: 7px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.horizonGradient {
+		height: 450px;
+	}
+
+	.textHeader {
+		font-size: 20px;
+		padding-left: 20px;
+	}
+
+	.headerBlock {
+		width: 300px;
+		margin-left: 10px;
+	}
+
+	.headerBlock1 {
+		font-size: 15px;
+	}
+
+	.headerBlock2 {
+		font-size: 10px;
+	}
+
+	.accountName {
+		font-size: 10px;
+	}
+
+	.sectionHeader {
+		padding-left: 160px;
+		font-size: 17px;
+	}
+
+	.sectionPicture {
+		width: 320px;
+		padding-left: 150px;
+	}
+
+	.sectionParagraph {
+		width: 300px;
+		padding-left: 160px;
+	}
+	.sectionSlogan {
+		padding-left: 100px;
+	}
+
+	.lineSlogan {
+		width: 32px;
+	}
+
+	.caption {
+		padding-left: 100px;
+	}
+	.sectionFrame {
+		width: 170px;
+	}
+	.sectionBlock {
+		width: 170px;
+	}
+
+	.sectionSloganHeader {
+		margin-left: -76px;
+	}
+
+	.footerBody .footerRightBlock .navMoreOnTheBlog .navHeader {
+		font-size: 10px;
+		padding-top: 2px;
+	}
+
+	.footerBody .footerRightBlock .navMoreOnMNTN .navHeader {
+		font-size: 10px;
+		padding-top: 2px;
+	}
+
+	.footerBody .footerLeftBlock .logoFooter {
+		font-size: 15px;
+	}
+
+	.footerRightBlock {
+		font-size: 9px;
+	}
+	.footerLeftBlock {
+		font-size: 9px;
+	}
 }
