@@ -1,6 +1,6 @@
 # MNTN
 
-The one of the projects made within the framework of HTML/CSS course at Synergy University in 2023.
+One of the projects made within the framework of HTML/CSS course at Synergy University in 2023.
 
 The main purpose - to build the ready site from figma template using adaptive layout.
 
